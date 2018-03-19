@@ -1,11 +1,11 @@
 $(function() {
 	$('#square').keyup(function(){
 		var square = $(this).val();
-		$('#price').val(square*1100)
+		$('#price').val(square*499)
 	});
 	$('#price').keyup(function(){
 		var price = $(this).val();
-		$('#square').val((price/1100).toFixed(2))
+		$('#square').val((price/499).toFixed(2))
 	});
 
 	$('.ask-blocks .item h4').click(function(){
