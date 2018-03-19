@@ -1,0 +1,30 @@
+{
+  "name": "GulpDefault",
+  "version": "1.0.0",
+  "description": "My gulp project",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "keywords"
+  ],
+  "author": "Satirik",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.23.6",
+    "cssnano": "^3.10.0",
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-cache": "^1.0.2",
+    "gulp-clean-css": "^3.9.3",
+    "gulp-if": "^2.0.2",
+    "gulp-imagemin": "^4.1.0",
+    "gulp-sass": "^3.1.0",
+    "gulp-uglify": "^3.0.0",
+    "gulp-useref": "^3.1.5",
+    "imagemin-pngquant": "^5.1.0",
+    "run-sequence": "^2.2.1"
+  },
+  "dependencies": {}
+}
